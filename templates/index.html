@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Duygu Analizi | Yapay Zeka Destekli</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Duygu Analizi</h1>
+            <p>Metninizi girin ve analiz sonucunu keşfedin</p>
+        </header>
+        
+        <div class="content">
+            <form id="text-form" method="POST">
+                <div class="input-area">
+                    <textarea name="text" placeholder="Buraya metninizi yazın..." required>{{ request.form['text'] if request.method == 'POST' else '' }}</textarea>
+                </div>
+                <button type="submit">🔍 Analiz Et</button>
+            </form>
+            
+            {% if result %}
+            <div class="result">
+                <h2>Sonuç</h2>
+                <p><strong>Duygu:</strong> <span class="{{ 'positive' if result.prediction == 'Olumlu' else 'negative' }}">{{ result.prediction }}</span></p>
+                <p><strong>Güven Oranı:</strong> {{ result.confidence }}</p>
+            </div>
+            {% endif %}
+        </div>
+    </div>
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
