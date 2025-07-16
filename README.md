@@ -2,7 +2,8 @@
 
 📌 **Türkçe Duygu Analizi - Word2Vec ve Logistic Regression**
 
-Bu proje, Türkçe metinler üzerinde duygu analizi yapmak için Word2Vec gömme yöntemi ve Logistic Regression algoritmasını kullanarak eğitilmiş bir makine öğrenimi modeli sunmaktadır. Model, Flask tabanlı modern bir web uygulaması üzerinden kullanılabilir.
+Bu proje, Türkçe metinler üzerinde duygu analizi yapmak için Word2Vec gömme yöntemi ve Logistic Regression algoritmasını kullanarak eğitilmiş bir makine öğrenimi modeli sunmaktadır. 
+Model, Flask tabanlı modern bir web uygulaması üzerinden kullanılabilir.
 
 ---
 
@@ -89,8 +90,12 @@ model-egitimi/
 
 ---
 
-## 📬 İletişim
-- **GitHub**: [bektas-sari](https://github.com/bektas-sari)
-- **Email**: [bektas.sari@gmail.com](mailto:bektas.sari@gmail.com)
+## 👤 Geliştirici
 
-⭐ Projeyi faydalı bulduysanız GitHub üzerinden yıldız vermeyi unutmayın!
+**Bektas Sari**  
+
+Email: bektas.sari@gmail.com  <br>
+GitHub: https://github.com/bektas-sari <br>
+LinkedIn: www.linkedin.com/in/bektas-sari <br>
+Researchgate: https://www.researchgate.net/profile/Bektas-Sari-3 <br>
+Academia: https://independent.academia.edu/bektassari <br>
