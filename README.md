@@ -1,4 +1,4 @@
-# Model Eğitimi (Yapay Zeka + Flask)
+# Model Eğitimi (Yapay Zeka + FLASK)
 
 📌 **Türkçe Duygu Analizi - Word2Vec ve Logistic Regression**
 
